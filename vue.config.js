@@ -37,6 +37,7 @@ module.exports = {
       maxInitialRequests: Infinity,
       minSize: 300000, // 依赖包超过300000bit将被单独打包
       automaticNameDelimiter: '-',
+      name: true,
       cacheGroups: {
         libs: {
           name: 'chunk-libs',
